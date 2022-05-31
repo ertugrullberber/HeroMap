@@ -11,10 +11,11 @@ struct ListeRowView: View {
     var superkahraman : SuperKahraman
     var body: some View {
         HStack{
+            Spacer()
             Image(superkahraman.gorselIsim)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .frame(width: 50, height: 50, alignment: .leading)
+                .frame(width: 100, height: 150, alignment: .leading)
                 .clipShape(Circle())
             Spacer()
             VStack{

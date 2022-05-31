@@ -10,16 +10,20 @@ import SwiftUI
 struct ListeView: View {
     var body: some View {
         NavigationView {
-            List(superKahramanDizisi) { SuperKahraman in
-                NavigationLink(
-                    destination: DetayView(secilenKahraman: SuperKahraman), label: {
-                        HStack{
-                            Text(SuperKahraman.isim)
-                            
-                        }
-                    })
-            }.navigationTitle(Text("Superkahraman Kitabi"))
-        }
+            ZStack{
+                VStack{
+                    List(superKahramanDizisi) { SuperKahraman in
+                        NavigationLink(
+                            destination: DetayView(secilenKahraman: SuperKahraman), label: {
+                                HStack{
+                                    ListeRowView(superkahraman: SuperKahraman)
+                                }
+                            })
+                }
+                }
+                
+            }
+        }.navigationTitle(Text("Superkahraman Kitabi"))
     }
 }
 
