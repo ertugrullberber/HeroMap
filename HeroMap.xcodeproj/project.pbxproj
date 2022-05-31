@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		5892EB3B284695BA00316E0E /* HeroMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5892EB3A284695BA00316E0E /* HeroMapApp.swift */; };
-		5892EB3D284695BA00316E0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5892EB3C284695BA00316E0E /* ContentView.swift */; };
+		5892EB3D284695BA00316E0E /* ListeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5892EB3C284695BA00316E0E /* ListeView.swift */; };
 		5892EB3F284695BC00316E0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5892EB3E284695BC00316E0E /* Assets.xcassets */; };
 		5892EB42284695BC00316E0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5892EB41284695BC00316E0E /* Preview Assets.xcassets */; };
 		5892EB4C284695BD00316E0E /* HeroMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5892EB4B284695BD00316E0E /* HeroMapTests.swift */; };
 		5892EB56284695BD00316E0E /* HeroMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5892EB55284695BD00316E0E /* HeroMapUITests.swift */; };
 		5892EB58284695BD00316E0E /* HeroMapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5892EB57284695BD00316E0E /* HeroMapUITestsLaunchTests.swift */; };
+		5892EB652846965B00316E0E /* SuperKahraman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5892EB642846965A00316E0E /* SuperKahraman.swift */; };
+		5892EB6728469D5500316E0E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5892EB6628469D5500316E0E /* MapView.swift */; };
+		5892EB692846A11600316E0E /* DetayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5892EB682846A11600316E0E /* DetayView.swift */; };
+		5892EB6B2846A2C200316E0E /* OzelGorselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5892EB6A2846A2C200316E0E /* OzelGorselView.swift */; };
+		5892EB6D2846B45A00316E0E /* ListeRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5892EB6C2846B45A00316E0E /* ListeRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		5892EB37284695BA00316E0E /* HeroMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5892EB3A284695BA00316E0E /* HeroMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroMapApp.swift; sourceTree = "<group>"; };
-		5892EB3C284695BA00316E0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5892EB3C284695BA00316E0E /* ListeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeView.swift; sourceTree = "<group>"; };
 		5892EB3E284695BC00316E0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5892EB41284695BC00316E0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5892EB47284695BD00316E0E /* HeroMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,11 @@
 		5892EB51284695BD00316E0E /* HeroMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5892EB55284695BD00316E0E /* HeroMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroMapUITests.swift; sourceTree = "<group>"; };
 		5892EB57284695BD00316E0E /* HeroMapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroMapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5892EB642846965A00316E0E /* SuperKahraman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperKahraman.swift; sourceTree = "<group>"; };
+		5892EB6628469D5500316E0E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		5892EB682846A11600316E0E /* DetayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayView.swift; sourceTree = "<group>"; };
+		5892EB6A2846A2C200316E0E /* OzelGorselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OzelGorselView.swift; sourceTree = "<group>"; };
+		5892EB6C2846B45A00316E0E /* ListeRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +105,14 @@
 			isa = PBXGroup;
 			children = (
 				5892EB3A284695BA00316E0E /* HeroMapApp.swift */,
-				5892EB3C284695BA00316E0E /* ContentView.swift */,
+				5892EB3C284695BA00316E0E /* ListeView.swift */,
 				5892EB3E284695BC00316E0E /* Assets.xcassets */,
 				5892EB40284695BC00316E0E /* Preview Content */,
+				5892EB642846965A00316E0E /* SuperKahraman.swift */,
+				5892EB6628469D5500316E0E /* MapView.swift */,
+				5892EB682846A11600316E0E /* DetayView.swift */,
+				5892EB6A2846A2C200316E0E /* OzelGorselView.swift */,
+				5892EB6C2846B45A00316E0E /* ListeRowView.swift */,
 			);
 			path = HeroMap;
 			sourceTree = "<group>";
@@ -257,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5892EB3D284695BA00316E0E /* ContentView.swift in Sources */,
+				5892EB6B2846A2C200316E0E /* OzelGorselView.swift in Sources */,
+				5892EB692846A11600316E0E /* DetayView.swift in Sources */,
+				5892EB3D284695BA00316E0E /* ListeView.swift in Sources */,
+				5892EB6D2846B45A00316E0E /* ListeRowView.swift in Sources */,
+				5892EB6728469D5500316E0E /* MapView.swift in Sources */,
 				5892EB3B284695BA00316E0E /* HeroMapApp.swift in Sources */,
+				5892EB652846965B00316E0E /* SuperKahraman.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
