@@ -17,7 +17,7 @@ struct DetayView: View {
                 MapView(coordinate: secilenKahraman.koordinatLokasyonu)
                     .frame(height: UIScreen.main.bounds.height * 0.3, alignment: .center)
                     .edgesIgnoringSafeArea(.top)
-                
+                    
                 OzelGorselView(image:
                                 Image(secilenKahraman.gorselIsim))
                 .frame(width: UIScreen.main.bounds.width * 0.9,
@@ -30,25 +30,29 @@ struct DetayView: View {
                     HStack{
                         Text(secilenKahraman.isim)
                             .font(.largeTitle)
-                            .foregroundColor(.blue)
+                            .fontWeight(.semibold)
+                            .foregroundColor(Color(red: 0.58, green: 0.00, blue: 0.00))
+                            .shadow(radius: 20)
+                            .opacity(10)
                         
                         Spacer()
                         
                         Text(secilenKahraman.gercekIsim)
-                            .font(.largeTitle)
-                            .foregroundColor(.orange)
+                            .font(.title)
+                            .foregroundColor(Color(red: 0.58, green: 0.00, blue: 0.00))
                     }
                     HStack{
-                        Text(secilenKahraman.sehir)
-                            .bold()
                         Spacer()
-                        Text(secilenKahraman.meslek)
+                        Text(secilenKahraman.sehir)
+                            .font(.title2)
+                            .fontWeight(.light)
                             .bold()
+                            .foregroundColor(Color(red: 0.00, green: 0.00, blue: 0.00))
                     }
                     
                     
                 }.padding()
-                    .offset(y: UIScreen.main.bounds.height * -0.16)
+                    .offset(y: UIScreen.main.bounds.height * -0.12)
                 Spacer()
                 
             }
@@ -60,6 +64,11 @@ struct DetayView: View {
 
 struct DetayView_Previews: PreviewProvider {
     static var previews: some View {
-        DetayView(secilenKahraman: spiderman )
+        Group{
+            DetayView(secilenKahraman: spiderman )
+            DetayView(secilenKahraman: ironman )
+            
+        }
+        
     }
 }

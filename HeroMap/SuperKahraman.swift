@@ -15,7 +15,6 @@ struct SuperKahraman : Identifiable {
     var gercekIsim : String
     var gorselIsim : String
     var sehir : String
-    var meslek : String
     var koordinat : Koordinat
     
     var koordinatLokasyonu : CLLocationCoordinate2D {
@@ -32,13 +31,13 @@ struct Koordinat {
     
 }
 
-let batman = SuperKahraman(isim: "Batman", gercekIsim: "Bruce Wayne" , gorselIsim: "batman", sehir: "Gotham", meslek: "Is Adami", koordinat: Koordinat(latitude: 41.8337329, longitude: -87.7319639))
+let batman = SuperKahraman(isim: "Batman", gercekIsim: "Bruce Wayne" , gorselIsim: "batman", sehir: "Gotham",  koordinat: Koordinat(latitude: 41.8337329, longitude: -87.7319639))
 
-let superman = SuperKahraman(isim: "Superman", gercekIsim: "Clark Kent", gorselIsim: "superman", sehir: "Kansas", meslek: "Gazeteci", koordinat: Koordinat(latitude: 38.4987789, longitude: -98.3200779))
+let superman = SuperKahraman(isim: "Superman", gercekIsim: "Clark Kent", gorselIsim: "superman", sehir: "Kansas",  koordinat: Koordinat(latitude: 38.4987789, longitude: -98.3200779))
 
-let spiderman = SuperKahraman(isim: "Spiderman", gercekIsim: "Peter Parker", gorselIsim: "spiderman", sehir: "New York", meslek: "Fotografci", koordinat: Koordinat(latitude: 40.6974881, longitude: -73.979681))
+let spiderman = SuperKahraman(isim: "Spiderman", gercekIsim: "Peter Parker", gorselIsim: "spiderman", sehir: "New York",  koordinat: Koordinat(latitude: 40.6974881, longitude: -73.979681))
 
-let ironman = SuperKahraman(isim: "Iron Man", gercekIsim: "Tony Stark", gorselIsim: "ironman", sehir: "Los Angeles", meslek: "Is adami", koordinat: Koordinat(latitude: 34.0201613, longitude: -118.6919205))
+let ironman = SuperKahraman(isim: "Iron Man", gercekIsim: "Tony Stark", gorselIsim: "ironman", sehir: "Los Angeles",  koordinat: Koordinat(latitude: 34.0201613, longitude: -118.6919205))
 
 
 let superKahramanDizisi = [batman, superman, spiderman, ironman]
