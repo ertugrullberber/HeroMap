@@ -12,7 +12,7 @@ struct ListeRowView: View {
     var body: some View {
         HStack{
             Spacer()
-            Image(superkahraman.gorselIsim)
+            Image(superkahraman.icon)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 100, height: 100, alignment: .leading)
@@ -40,6 +40,8 @@ struct ListeRowView_Previews: PreviewProvider {
             ListeRowView(superkahraman: spiderman)
             ListeRowView(superkahraman: batman)
             ListeRowView(superkahraman: ironman)
+            ListeRowView(superkahraman: wolverine)
+            ListeRowView(superkahraman: captainAmerica)
             
         }
         

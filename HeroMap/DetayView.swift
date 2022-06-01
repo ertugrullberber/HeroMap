@@ -65,7 +65,7 @@ struct DetayView: View {
 struct DetayView_Previews: PreviewProvider {
     static var previews: some View {
         Group{
-            DetayView(secilenKahraman: spiderman )
+            DetayView(secilenKahraman: wolverine )
             DetayView(secilenKahraman: ironman )
             
         }
